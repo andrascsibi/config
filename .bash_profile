@@ -7,6 +7,4 @@ source ~/.bash_aliases
     . /usr/local/share/liquidprompt
   fi
 
-alias ls="ls -G"
-alias cb="pbcopy"
 
