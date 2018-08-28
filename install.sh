@@ -50,8 +50,12 @@ brew tap caskroom/versions
 casks=(
   slack
   discord
+  iterm2
+  steam
+  gimp
 )
 echo "installing casks"
 brew cask install ${casks[@]}
 
-brew cask cleanup
+brew cleanup
+
