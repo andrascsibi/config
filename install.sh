@@ -38,6 +38,8 @@ binaries=(
   node
   git
   liquidprompt
+  wget
+  awscli
 )
 echo "installing binaries..."
 brew install ${binaries[@]}
@@ -53,6 +55,9 @@ casks=(
   iterm2
   steam
   gimp
+  sublime-text
+  spotify
+  the_silver_searcher
 )
 echo "installing casks"
 brew cask install ${casks[@]}
