@@ -40,6 +40,7 @@ binaries=(
   liquidprompt
   wget
   awscli
+  ffmpeg
 )
 echo "installing binaries..."
 brew install ${binaries[@]}
@@ -57,6 +58,7 @@ casks=(
   gimp
   sublime-text
   spotify
+  vlc
   the_silver_searcher
 )
 echo "installing casks"
