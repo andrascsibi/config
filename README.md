@@ -1,6 +1,12 @@
-config
-======
+# config
 
 Some of my config files
 
-Currently I only keep track of my Sublime Text 2 configs.
+## Symlinks 
+
+    cd <this repo>
+    ln -nfs $PWD/hammerspoon/init.lua ~/.hammerspoon/init.lua
+
+    mv ~/.config/karabiner ~/.config/karabiner.bak
+    ln -nfs $PWD/karabiner ~/.config
+
