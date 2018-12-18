@@ -5,6 +5,9 @@ local applicationHotkeys = {
   s = 'Sublime Text',
   c = 'Google Chrome',
   a = 'iTerm',
+  d = 'Discord',
+  f = 'Slack',
+  g = 'giphy capture',
 }
 for key, app in pairs(applicationHotkeys) do
   hs.hotkey.bind(hyper, key, function()
