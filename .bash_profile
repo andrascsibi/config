@@ -6,8 +6,8 @@ if [ -f /usr/local/share/liquidprompt ]; then
 fi
 
 export SHELL_SESSION_HISTORY=0
-export HISTFILESIZE=
-export HISTSIZE=
+export HISTFILESIZE=1000000
+export HISTSIZE=1000000
 
 
 
