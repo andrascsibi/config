@@ -40,6 +40,7 @@ binaries=(
   liquidprompt
   wget
   awscli
+  htop
   ffmpeg
 )
 echo "installing binaries..."
