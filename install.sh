@@ -42,6 +42,7 @@ binaries=(
   awscli
   htop
   ffmpeg
+  jq
 )
 echo "installing binaries..."
 brew install ${binaries[@]}
