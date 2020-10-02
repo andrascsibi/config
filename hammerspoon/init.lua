@@ -11,6 +11,7 @@ local applicationHotkeys = {
   x = 'Notes',
   n = 'Notes',
   z = 'Spotify',
+  q = 'Clockify Desktop',
 }
 for key, app in pairs(applicationHotkeys) do
   hs.hotkey.bind(hyper, key, function()
