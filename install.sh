@@ -62,6 +62,7 @@ casks=(
   spotify
   vlc
   the_silver_searcher
+  toggl-track
 )
 echo "installing casks"
 brew cask install ${casks[@]}
