@@ -3,7 +3,7 @@ local hyper = {'cmd', 'alt', 'ctrl', 'shift',}
 
 local applicationHotkeys = {
   s = 'Sublime Text',
-  c = 'Google Chrome',
+  c = 'Safari',
   a = 'iTerm',
   d = 'Discord',
   f = 'Slack',
