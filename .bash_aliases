@@ -10,3 +10,5 @@ alias cdsaves="cd '/Users/andras/Library/Application Support/LOVE/Terraforming-E
 alias bs='cscreen -d 32 -x 1440 -y 900'
 alias gs='cscreen -d 32 -x 2880 -y 1800'
 
+alias ks='for f in `ps aux | grep Study | sed -E "s/andras *([0-9]*).*/\1/g"`; do kill $f; done'
+
