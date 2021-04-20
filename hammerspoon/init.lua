@@ -9,10 +9,11 @@ local applicationHotkeys = {
   f = 'Slack',
   g = 'giphy capture',
   x = 'Notes',
-  n = 'Notes',
+  n = 'Notion',
   z = 'Spotify',
   q = 'Toggl Track',
-  e = 'Eclipse JEE',
+  e = 'Eclipse',
+  
 }
 for key, app in pairs(applicationHotkeys) do
   hs.hotkey.bind(hyper, key, function()
