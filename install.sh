@@ -68,6 +68,7 @@ casks=(
   karabiner-elements
   hammerspoon  
   notion
+  signal
 )
 echo "installing casks"
 brew install --cask ${casks[@]}
