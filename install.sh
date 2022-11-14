@@ -1,10 +1,13 @@
-#!/bin/sh
+#!/bin/sh 
+
+set -e
 
 # Check for Homebrew,
 # Install if we don't have it
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 fi
 
 # Update homebrew recipes
@@ -24,13 +27,13 @@ brew install grep
 
 # Apps
 apps=(
-  java8
+  zulu 
 )
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "installing apps..."
-brew cask install --appdir="/Applications" ${apps[@]}
+brew install --cask --appdir="/Applications" ${apps[@]}
 
 PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
@@ -43,14 +46,14 @@ binaries=(
   htop
   ffmpeg
   jq
+  the_silver_searcher
 )
 echo "installing binaries..."
 brew install ${binaries[@]}
 
 brew cleanup
 
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask
 
 casks=(
   slack
@@ -61,11 +64,12 @@ casks=(
   sublime-text
   spotify
   vlc
-  the_silver_searcher
   toggl-track
+  karabiner-elements
+  hammerspoon  
 )
 echo "installing casks"
-brew cask install ${casks[@]}
+brew install --cask ${casks[@]}
 
 brew cleanup
 
