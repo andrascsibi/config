@@ -8,5 +8,5 @@ Some of my config files
     ln -nfs $PWD/hammerspoon ~/.hammerspoon
 
     mv ~/.config/karabiner ~/.config/karabiner.bak
-    ln -nfs $PWD/karabiner ~/.config/karabiner
+    ln -nfs $PWD/karabiner ~/.config/
 
