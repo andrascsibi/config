@@ -67,6 +67,7 @@ casks=(
   toggl-track
   karabiner-elements
   hammerspoon  
+  notion
 )
 echo "installing casks"
 brew install --cask ${casks[@]}
