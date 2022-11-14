@@ -10,3 +10,9 @@ Some of my config files
     mv ~/.config/karabiner ~/.config/karabiner.bak
     ln -nfs $PWD/karabiner ~/.config/
 
+    cd
+    touch .profile
+    ln -nfs <PATH_TO_CONFIG>/.bash_profile .
+    ln -nfs <PATH_TO_CONFIG>/.bash_aliases .
+    ln -nfs .bash_profile .zprofile
+    
