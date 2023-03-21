@@ -56,6 +56,7 @@ brew cleanup
 brew tap homebrew/cask
 
 casks=(
+  brave-browser
   slack
   discord
   iterm2
