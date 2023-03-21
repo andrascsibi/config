@@ -64,7 +64,6 @@ casks=(
   sublime-text
   spotify
   vlc
-  toggl-track
   karabiner-elements
   hammerspoon  
   notion
