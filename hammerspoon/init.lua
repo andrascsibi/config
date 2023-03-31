@@ -11,8 +11,9 @@ local applicationHotkeys = {
   x = 'Notes',
   n = 'Notion',
   z = 'Spotify',
-  q = 'Toggl Track',
-  e = 'Eclipse',
+  e = 'Microsoft Edge',
+  b = 'Brave Browser',
+  v = 'Visual Studio Code',
   
 }
 for key, app in pairs(applicationHotkeys) do
