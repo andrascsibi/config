@@ -17,3 +17,5 @@ unix_timestamp() {
 }
 alias ts=unix_timestamp
 
+alias eq='curl -X "GET"  -H "accept: application/json" "https://beaconcha.in/api/v1/validators/queue" | jq .'
+
