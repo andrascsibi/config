@@ -17,3 +17,7 @@ export NVM_DIR="$HOME/.nvm"
 PATH=$PATH:~/bin
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+PATH=$PATH:~/bin/platform-tools
+
+
